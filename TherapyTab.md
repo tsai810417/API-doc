@@ -67,11 +67,11 @@
 
   * **URL**
 
-  /api/therapy
+    /api/therapy
 
   * **Method:**
 
-  `GET`
+    `GET`
 
   * **URL Params**
 
@@ -227,11 +227,11 @@
 
   * **URL**
 
-  /api/material
+    /api/material
 
   * **Method:**
 
-  `PUT`
+    `PUT`
 
   * **URL Params**
 
@@ -310,11 +310,11 @@
 
   * **URL**
 
-  /api/insulin_therapy
+    /api/insulin_therapy
 
   * **Method:**
 
-  `PUT`
+    `PUT`
 
   * **URL Params**
 
@@ -419,11 +419,11 @@
 
   * **URL**
 
-  /api/prescription
+    /api/prescription
 
   * **Method:**
 
-  `POST`
+    `POST`
 
   * **URL Params**
 
@@ -519,11 +519,11 @@
 
   * **URL**
 
-  /api/medication
+    /api/medication
 
   * **Method:**
 
-  `POST`
+    `POST`
 
   * **URL Params**
 
@@ -646,11 +646,11 @@
 
   * **URL**
 
-  /api/medication
+    /api/medication
 
   * **Method:**
 
-  `PUT`
+    `PUT`
 
   * **URL Params**
 
@@ -760,11 +760,11 @@
 
   * **URL**
 
-  /api/medication
+    /api/medication
 
   * **Method:**
 
-  `DELETE`
+    `DELETE`
 
   * **URL Params**
 
