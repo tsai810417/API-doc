@@ -538,15 +538,27 @@
 
   * **Body**
 
-    ```
-    "medications_to_update": [
-      {
-        id=[integer],
-        name=[string],
-        dose=[string]
-      },
-      ...
-    ]
+    ```json
+    {
+      "oral": [
+        {
+          "name": "oral medicine",
+          "dose": "1mg/day"
+        }
+      ],
+      "medication": [
+        {
+          "name": "name of medication",
+          "dose": "5mg"
+        }
+      ],
+      "glp": [
+        {
+          "name": "",
+          "dose": ""
+        }
+      ]
+    }
     ```
 
   * **Sucess Response:**
@@ -559,19 +571,16 @@
         "medication": {
           "oral": [
             {
-              "id": 1,
               "name": "oral medicine",
               "dose": "3mg"
             },
             {
-              "id": 5,
               "name": "another oral medicine",
               "dose": "10mg"
             }
           ],
           "medication": [
             {
-              "id": 2,
               "name": "name of medication",
               "dose": "2mg"
             }
@@ -601,25 +610,23 @@
         contentType: "application/json",
         authorization: `Bearer ${token}`,
         body: {
-          "medications_to_update": [
-            "oral": [
-              {
-                "id": 1,
-                "name": "oral medicine",
-                "dose": "3mg"
-              },
-              {
-                "id": 5,
-                "name": "another oral medicine",
-                "dose": "10mg"
-              }
-            ],
-            "medication": [
-
-            ],
-            "glp": [
-
-            ]
+          "oral": [
+            {
+              "name": "oral medicine",
+              "dose": "1mg/day"
+            }
+          ],
+          "medication": [
+            {
+              "name": "name of medication",
+              "dose": "5mg"
+            }
+          ],
+          "glp": [
+            {
+              "name": "",
+              "dose": ""
+            }
           ]
         },
         success : function(r) {
